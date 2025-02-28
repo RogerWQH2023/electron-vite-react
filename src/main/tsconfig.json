@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    // 启用严格类型检查（空值安全）
+    "strict": true,
+    // 指定生成的 ECMAScript 目标版本为最新版本
+    "target": "ESNext",
+    // 指定模块系统使用 Node 的 ESM 语法作为输入（包括 .js 文件导入）
+    "module": "NodeNext",
+    // 指定编译后的 JavaScript 文件输出目录
+    "outDir": "../../dist-electron",
+    // 跳过依赖包的类型检查
+    "skipLibCheck": true
+  }
+}

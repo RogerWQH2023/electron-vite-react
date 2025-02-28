@@ -1,0 +1,24 @@
+{
+  "appId": "com.zju-gis-lab.electron-platform-dde",
+  "files": [
+    "dist-electron",
+    "dist-web"
+  ],
+  "extraResources": [
+    "dist-electron/preload.cjs",
+    "resources"
+  ],
+  "icon": "./resources/dde-icon.png",
+  "mac": {
+    "target": "dmg"
+  },
+  "linux": {
+    "target": "AppImage",
+    "category": "Utility"
+  },
+  "win": {
+    "target": [
+      "portable"
+    ]
+  }
+}
